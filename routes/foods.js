@@ -1,9 +1,12 @@
 var express = require('express');
 var router = express.Router();
+var controll = require("../controllers/foodController")
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', controll.getAll)
+router.post('/',controll.insert)
+router.get('/:id', controll.findById)
+router.patch('/:id', controll.update)
+router.delete('/:id', controll.delete)
 
 module.exports = router;

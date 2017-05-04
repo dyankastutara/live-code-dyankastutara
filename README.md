@@ -1,6 +1,12 @@
 # live-code-dyankastutara
 
-## How To Use
+## Deskripsi Program
+
+Program ini dibuat sebagai pelatihan dalam penerapan CRUD (Create Read Update Delete)
+
+## How to Use
+
+- Open Postman
 
 list route for foods:
 
