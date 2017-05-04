@@ -7,6 +7,11 @@ Program ini dibuat sebagai pelatihan dalam penerapan CRUD (Create Read Update De
 ## How to Use
 
 - Open Postman
+- Choice Route
+- Enter request url : default (localhost:3000/{route})
+- example : localhost:3000/foods
+
+## List route
 
 list route for foods:
 
